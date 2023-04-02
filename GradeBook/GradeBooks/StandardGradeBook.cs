@@ -1,10 +1,18 @@
-﻿using System;
+﻿using GradeBook.Enums;
+using System;
 using System.Collections.Generic;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 
 namespace GradeBook.GradeBooks
 {
-    internal class Class1
+    public class StandardGradeBook : BaseGradeBook
     {
+        public StandardGradeBook(string name, bool IsWeighted) : base(name)
+        {
+            base.Type = GradeBookType.Standard;
+        }
+
+
     }
 }
