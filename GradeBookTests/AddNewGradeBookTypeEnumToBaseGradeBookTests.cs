@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using GradeBook.Enums;
 using GradeBook.GradeBooks;
 using Xunit;
 
